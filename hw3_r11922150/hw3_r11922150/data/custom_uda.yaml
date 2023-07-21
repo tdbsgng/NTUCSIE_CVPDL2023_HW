@@ -1,0 +1,8 @@
+train: ./yolo_data/org/train
+val: ./yolo_data/fog/val
+uda: ./yolo_data/fog/train
+#Classes
+nc: 8 # replace according to your number of classes
+#classes names
+#replace all class names list with your classes names
+names: ["person", "car", "truck", "bus", "rider", "motorcycle", "bicycle", "train"]
